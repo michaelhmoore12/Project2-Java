@@ -1,2 +1,3 @@
 # Project2-Java
-JavaScript2
+# Welcome to my giphy website!
+
