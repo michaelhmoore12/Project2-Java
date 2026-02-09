@@ -7,4 +7,4 @@
 - JAVA SCRIPT
 
 # WIRE FRAME
-! [wireframe](./images/wireframe2.png)
+! [wireframe](./images/wireframe2.0.jpg)
