@@ -1,11 +1,13 @@
 h1 {
     text-align: center;
-    color: #333;    
+    color: #4e4d4d;    
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #959595;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease-in-out;
 }
 #searchInput {
     width: 80%;
@@ -22,4 +24,44 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+h2 {
+    text-align: center;
+    color: #555;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+button:hover {
+    background-color: #45a049;
+}
+button { 
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+#gifContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #333;
+    margin-top: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a4a4a4;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
